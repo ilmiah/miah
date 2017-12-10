@@ -1,46 +1,167 @@
+<!DOCTYPE html>
 <html>
-   <body>
-   <h1>Heading 1</h1>
-   <h2>heading 2</h2>
-   <h3>heading 3</h3>
-   <h4>heading 4</h4>
-   <h5>heading 5</h5>
-   <h6>heading 6</h6>
-   <a href="http://www.google.com"></a>
-   <a href="http://www.facebook.com">facebook</a>
-   <a href="about-us.html">ini text link menuju file about-us.html</a>
-   
-   <br></br>
-   
-   <a href ="mailto:indra@indragunawan.com">email ke indra!</a>
-   <br></br>
-   <a href="mailto:ilmiahpawiro605@gmail.com">tanya saya</a>
-   <br></br>
-   <h1>penang banjir!</h1>
-   <p>semalam, dikarenakan hujan lebat, tanah longsor!</p>
-   <br></br>
-   
-   <ul>
-		<li>umordered list 1</li>
-		<li>unordered list 2</li>
-   </ul>
-   <br></br>
-   <ol>
-		<li>ordered list 1</li>
-		<li>ordered list 2</li>
-	</ol>
-	<h1>Jual kue</h1>
-	</ul>
-		  <li>Lapis legit</h1>
-		  <li>Bika ambon</li>
-	</ul>
-	<br></br>
-	<h1>cara pesan kue:</h1>
-	<ol>
-		<li>pilih kue</li>
-		<li>email saya</li>
-    </ol>
-	<br></br>
-	<img src="image/buat-kue.jpg"> style="width:500px; heigt: 500px;">
-   </body>
+
+<head>
+	<title>CodingMum - Lesson4 - Template</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- External CSS Files -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<!-- External JS Files -->
+	<script type="text/javascript" src="./assets/js/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="./assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<header class="bg-primary text-center">
+			<h1>Curriculum Vitae</h1>
+		</header>
+		<main>
+			<!-- Photo & Biodata -->
+			<section class="row">
+				<header class="col-12">
+					<h3><em>
+						Biodata
+					</h3></em>
+				</header>	
+				<div class="col-12 col-md-6" id="cv-photo">
+					<img src="ilmiah.jpg" class="img-fluid img-thumbnail" id="ilmiah.jpg" alt="profile photo">
+				</div>
+				<div class="col-12 col-md-6" id="cv-biodata">
+					<table class="table table-responsive">
+						<tbody>
+							<tr>
+								<th>Full Name</th>
+								<td>:</td>
+								<td>Ilmiah</td>
+							</tr>
+							<tr>
+								<th>Phone</th>
+								<td>:</td>
+								<td>
+									<a href="https://api.whatsapp.com/send?phone=600173997617">(+60)0173997617</a>
+								</td>
+							</tr>
+							<tr>
+								<th>Email</th>
+								<td>:</td>
+								<td>
+									<a href="mailto:ilmiahpawiro605@gmail.com">ilmiahpawiro605@gmail.com</a>
+								</td>
+							</tr>
+							<tr>
+								<th>facebook</th>
+								<td>:</td>
+								<td>
+									<a href="https://facebook.com/ilmiah.mia31">https://Facebook: Ilmiah Mia</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<!-- Education & Hobby -->
+			<section class="row">
+				<header class="col-12">
+					<h3><em>
+						Education &amp; Hobby
+					</h3></em>
+				</header>
+				<div class="col-12 col-md-6" id="cv-education">
+					<h5>
+						Education Background
+					</h5>
+					<ul>
+						<li>
+							<p>
+								SDN Lampung <span>(1982-1988)</span>
+							</p>
+						</li>
+						<li>
+							<p>
+								MTs Lampung <span>(1988-1991)</span>
+							</p>
+						</li>
+						<li>
+							<p>
+								SMKN Medan <span>(2009)</span>
+							</p>
+						</li>
+	
+							<p>
+								<span></span>
+							</p>
+						
+					</ul>
+				</div>
+				<div class="col-12 col-md-6" id="cv-hobby">
+					<h5><em>
+						Hobby
+					</h5></em>
+					<ol>
+						<li>
+							<p>
+								Reading News
+							</p>
+						</li>
+						<li>
+							<p>
+								Learn something new
+							</p>
+						</li>
+						<li>
+							<p>
+								Watch movie laga
+							</p>
+						</li>
+					</ol>
+				</div>
+			</section>
+			<!-- Description -->
+			<section class="row">
+				<header class="col-12">
+					<h3><em>
+						About me
+					</h3></em>
+				</header>
+				<div class="col-12 col-md-6">
+					<article id="cv-about">
+						<p>
+							Saya orangnya biasa-biasa saja, namun saya suka mencoba & belajar sesuatu yang baru, contohnya ketika saya baru masuk malaysia 
+						saya merasa aneh dengan makanan di sini, namun saya mencoba & mencoba makanan tersebut & lama kelamaan lidah & tenggorokan saya 
+						bisa menerimanya, makanan yang aneh di lidah saat itu adalah kari/carry, maggi kari, mee kari & sebangsanya.
+						</p>
+						<p>
+							Setelah beberapa tahun di malaysia saya di perkenalkan EUB oleh seorang teman lama, kenapa saya sebut teman lama? karena 
+						dialah teman saya satu-satunya di sini yang dari indonesia, apa itu EUB? EUB ( edukasi untuk bangsa ) adalah sarana belajar 
+						yang di sediakan oleh pemerintah secara gratis untuk para TKI di sini supaya selain bekerja menjadi buruh migran, TKI juga 
+						dapat menimba ilmu yang dapat di manfaatkan ketika kembali ke kampung halaman masing-masing nantinya, sarana belajar yang di sediakan 
+						oleh EUB yaitu: computer, bahasa inggris, coding, menjahit, kraff & wirausaha.
+						</p>
+						<p>
+							Semenjak mengenal EUB hujung minggu saya habiskan waktu di EUB, semua kelas saya ikuti secara bergantian dari batch 8-12 saat 
+						ini saya sedang belajar coding yang baru di adakan oleh EUB 2 batch terakhir, walaupun saya tidak tahu apa itu coding namun
+						saya ingin mencoba & belajar karena di dorong rasa penasaran & rasa ingin tahu yang tinggi hihi... sebelum kemudian saya mengenal 
+						MS (Mandiri Sahabatku), MS yaitu seminar atau pelatihan intepreneur utuk para TKI di beberapa negara termasuk malaysia, 
+						dari MS saya dapat mengenal codingmum, codingmum yaitu kelas coding khusus wanita yang di adakan oleh BEKRAFF ( badan ekonomi kreatif )
+						untuk melatih para TKW supaya dapat membuat website sendiri, para profesional dari indonesai di kuala lumpur sanggup menjadi sukarelawan
+						untuk berbagi ilmu secara gratis & dengan kesabaran yang tinggi tentunya menghadapi ibu-ibu student di EUB maupun di codingmum ini. 
+							
+						
+							
+						</p>
+					</article>
+				</div>
+			</section>
+		</main>
+		<footer class="bg-dark text-center">
+			<h6>This curriculum vitae was made thruthfully. Copyright &copy; 2017 by marudits</h6>
+		</footer>
+	</div>
+</body>
+
 </html>
